@@ -132,6 +132,13 @@ Rules:
 - BGs: soft painted shading, warm palettes. Interiors: shelves with steel pots, hanging cloth/bags, lantern, framed deity picture, bed with a pink sheet. Exteriors: thatched/tiled huts, big banyan tree, flowers in the FG corners. Palace: symmetrical throne, red carpet, pillars, curtains.
 - The FG layer always contains something (pot, plant, flower, doorframe, spear) for depth.
 
+## 9b. Voice-over
+
+Follow `references/voice-style.md` (measured from the reference audio): narrator plus fixed
+character voices, brisk expressive delivery (~4 syllables/s), 0.3–0.6 s gaps between lines,
+continuous music bed about 25 dB under the voice, final mix at about −16 LUFS. When the user supplies VO, use it
+as-is and drive the lip-sync from its loudness envelope. Never clone a real person's voice.
+
 ## 10. Output for each request
 
 When the user gives a script, deliver:
