@@ -54,12 +54,16 @@ class BG:
     cache = {}
 
     @classmethod
-    def get(cls, path):
-        if path not in cls.cache:
+    def get(cls, path, blur=0):
+        key = (path, blur)
+        if key not in cls.cache:
             im = Image.open(path).convert('RGB')
             if im.width > 3840: im = im.resize((3840, round(im.height * 3840 / im.width)), Image.LANCZOS)
-            cls.cache[path] = im
-        return cls.cache[path]
+            if blur:
+                from PIL import ImageFilter
+                im = im.filter(ImageFilter.GaussianBlur(blur))
+            cls.cache[key] = im
+        return cls.cache[key]
 
 
 def main():
@@ -84,7 +88,7 @@ def main():
         t = a.start + fi / fps
         sh = next((s for s in shots if s['t0'] <= t < s['t1']), shots[-1])
         u = ease((t - sh['t0']) / max(1e-6, sh['t1'] - sh['t0']))
-        bg = BG.get(P(sh['bg']))
+        bg = BG.get(P(sh['bg']), sh.get('blur', 0))
         c0, c1 = sh['cam']
         cx = c0[0] + (c1[0] - c0[0]) * u; cy = c0[1] + (c1[1] - c0[1]) * u; cw = c0[2] + (c1[2] - c0[2]) * u
         ch = cw * H / W; k = W / cw

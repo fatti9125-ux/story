@@ -4,7 +4,6 @@
   "raja_talk": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/raja_talk",
   "raja_idle": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/raja_idle",
   "raja_throne_idle": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/raja_throne_idle",
-  "raja_throne_mute": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/raja_throne_mute",
   "pr_talk": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/pr_talk",
   "pr_talk2": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/pr_talk2",
   "pr_idle": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/pr_idle",
@@ -16,65 +15,94 @@
   "d0": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/d0",
   "d4": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/d4",
   "d1": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/d1",
-  "d5": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/d5"
+  "d5": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/d5",
+  "vlady": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/vlady",
+  "gao_walk": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/gao_walk",
+  "gao_idle": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips4/gao_idle"
  },
  "shots": [
   {
    "t0": 0,
    "t1": 6.3,
-   "bg": "/home/user/story/assets/backgrounds/jpg/birds eye view mahal 2.jpeg",
+   "bg": "/home/user/story/assets/backgrounds/jpg/mahal barandha.jpeg",
+   "blur": 6,
    "cam": [
     [
-     0,
-     0,
-     2560
+     300,
+     170,
+     1960
     ],
     [
-     760,
-     200,
-     1500
+     420,
+     240,
+     1720
     ]
    ],
-   "fade_in": 0.8,
+   "fade_in": 0.6,
    "overlays": [
+    {
+     "png": "preview/book.png",
+     "t0": 0,
+     "t1": 6.3,
+     "x": 0.5,
+     "y": 0.6,
+     "w": 0.42
+    },
     {
      "png": "preview/title.png",
      "t0": 0.8,
      "t1": 6.0,
      "x": 0.5,
-     "y": 0.2,
+     "y": 0.17,
      "w": 0.55
     }
    ]
   },
   {
    "t0": 6.3,
-   "t1": 9.7,
+   "t1": 8.4,
+   "bg": "/home/user/story/assets/backgrounds/jpg/birds eye view mahal 2.jpeg",
+   "cam": [
+    [
+     200,
+     60,
+     2160
+    ],
+    [
+     560,
+     180,
+     1700
+    ]
+   ]
+  },
+  {
+   "t0": 8.4,
+   "t1": 11.2,
    "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
    "cam": [
     [
-     0,
-     0,
-     2560
+     260,
+     240,
+     2040
     ],
     [
-     200,
-     110,
-     2160
+     420,
+     320,
+     1720
     ]
    ],
    "actors": [
     {
      "talk": "m3",
      "idle": "m3",
-     "x": 1010,
+     "x": 1000,
      "y": 1110,
      "h": 470
     },
     {
      "talk": "m2",
      "idle": "m2",
-     "x": 1550,
+     "x": 1560,
      "y": 1110,
      "h": 470,
      "flip": true
@@ -113,71 +141,109 @@
      "x": 1280,
      "y": 1075,
      "h": 430
+    },
+    {
+     "talk": "vlady",
+     "idle": "vlady",
+     "x": 760,
+     "y": 1330,
+     "h": 560
+    },
+    {
+     "talk": "kishan_mute",
+     "idle": "kishan_mute",
+     "x": 960,
+     "y": 1350,
+     "h": 580
     }
    ]
   },
   {
-   "t0": 9.7,
+   "t0": 11.2,
    "t1": 13.3,
-   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "bg": "/home/user/story/assets/backgrounds/png8k/river 2.png",
    "cam": [
     [
      700,
-     470,
-     1160
+     450,
+     2900
     ],
     [
-     760,
+     820,
      500,
-     1060
+     2700
     ]
    ],
    "actors": [
     {
-     "talk": "raja_throne_mute",
-     "idle": "raja_throne_mute",
-     "x": 1280,
-     "y": 1075,
-     "h": 430
+     "talk": "gao_walk",
+     "idle": "gao_walk",
+     "x": 1500,
+     "y": 1990,
+     "h": 640,
+     "x1": 2100,
+     "move_dur": 2.1
     },
     {
-     "talk": "m3",
-     "idle": "m3",
-     "x": 1050,
-     "y": 1110,
-     "h": 470
-    },
-    {
-     "talk": "m2",
-     "idle": "m2",
-     "x": 1550,
-     "y": 1110,
-     "h": 470,
+     "talk": "gao_idle",
+     "idle": "gao_idle",
+     "x": 2700,
+     "y": 2000,
+     "h": 650,
      "flip": true
     },
     {
      "talk": "kishan_mute",
      "idle": "kishan_mute",
-     "x": 905,
-     "y": 1320,
-     "h": 600
+     "x": 3050,
+     "y": 2010,
+     "h": 640,
+     "flip": true
     }
    ]
   },
   {
    "t0": 13.3,
-   "t1": 19.1,
+   "t1": 15.8,
    "bg": "/home/user/story/assets/backgrounds/jpg/rajmohal garden.jpeg",
+   "blur": 4,
    "cam": [
     [
+     620,
      420,
-     330,
-     1700
+     1100
     ],
     [
-     560,
-     420,
-     1450
+     660,
+     440,
+     1020
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "pr_idle",
+     "idle": "pr_idle",
+     "x": 1050,
+     "y": 1420,
+     "h": 900
+    }
+   ]
+  },
+  {
+   "t0": 15.8,
+   "t1": 19.1,
+   "bg": "/home/user/story/assets/backgrounds/jpg/rajmohal garden.jpeg",
+   "blur": 4,
+   "cam": [
+    [
+     480,
+     380,
+     1560
+    ],
+    [
+     540,
+     410,
+     1460
     ]
    ],
    "actors": [
@@ -185,15 +251,15 @@
      "talk": "pr_idle",
      "idle": "pr_idle",
      "x": 980,
-     "y": 1400,
-     "h": 860
+     "y": 1420,
+     "h": 880
     },
     {
      "talk": "bh_mute",
      "idle": "bh_mute",
-     "x": 1560,
-     "y": 1410,
-     "h": 880,
+     "x": 1540,
+     "y": 1430,
+     "h": 900,
      "flip": true
     }
    ]
@@ -201,79 +267,40 @@
   {
    "t0": 19.1,
    "t1": 21.8,
-   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "bg": "/home/user/story/assets/backgrounds/jpg/Rajsava.jpg",
+   "blur": 2,
    "cam": [
     [
-     150,
-     180,
-     2100
+     760,
+     560,
+     2500
     ],
     [
-     250,
-     230,
-     1950
+     860,
+     620,
+     2300
     ]
    ],
    "actors": [
     {
-     "talk": "m3",
-     "idle": "m3",
-     "x": 1010,
-     "y": 1110,
-     "h": 470
-    },
-    {
-     "talk": "m2",
-     "idle": "m2",
-     "x": 1550,
-     "y": 1110,
-     "h": 470,
+     "talk": "raja_talk",
+     "idle": "raja_idle",
+     "speaking": [],
+     "x": 1600,
+     "y": 1980,
+     "h": 1150,
      "flip": true
-    },
-    {
-     "talk": "d0",
-     "idle": "d0",
-     "x": 470,
-     "y": 1260,
-     "h": 330
-    },
-    {
-     "talk": "d4",
-     "idle": "d4",
-     "x": 260,
-     "y": 1350,
-     "h": 380
-    },
-    {
-     "talk": "d1",
-     "idle": "d1",
-     "x": 2090,
-     "y": 1260,
-     "h": 330
-    },
-    {
-     "talk": "d5",
-     "idle": "d5",
-     "x": 2300,
-     "y": 1350,
-     "h": 380
-    },
-    {
-     "talk": "raja_throne_idle",
-     "idle": "raja_throne_idle",
-     "x": 1280,
-     "y": 1075,
-     "h": 430
     },
     {
      "talk": "pr_walk",
      "idle": "pr_walk",
-     "x": 250,
-     "y": 1420,
-     "h": 760,
-     "x1": 900,
-     "y1": 1400,
-     "h1": 740,
+     "flip": true,
+     "x": 3150,
+     "y": 1980,
+     "h": 1080,
+     "x1": 2300,
+     "y1": 1980,
+     "h1": 1100,
      "move_dur": 2.7
     }
    ]
@@ -281,41 +308,21 @@
   {
    "t0": 21.8,
    "t1": 27.4,
-   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "bg": "/home/user/story/assets/backgrounds/jpg/Rajsava.jpg",
+   "blur": 3,
    "cam": [
     [
-     1030,
-     600,
-     760
+     1180,
+     800,
+     1050
     ],
     [
-     1050,
-     610,
-     720
+     1200,
+     810,
+     1000
     ]
    ],
    "actors": [
-    {
-     "talk": "pr_talk",
-     "idle": "pr_idle",
-     "speaking": [
-      [
-       27.4,
-       36.3
-      ],
-      [
-       39.7,
-       43.8
-      ],
-      [
-       54.9,
-       58.6
-      ]
-     ],
-     "x": 1020,
-     "y": 1440,
-     "h": 780
-    },
     {
      "talk": "raja_talk",
      "idle": "raja_idle",
@@ -333,50 +340,53 @@
        54.6
       ]
      ],
-     "x": 1560,
-     "y": 1440,
-     "h": 820
+     "x": 1600,
+     "y": 1980,
+     "h": 1150,
+     "flip": true
+    },
+    {
+     "talk": "pr_talk",
+     "idle": "pr_idle",
+     "speaking": [
+      [
+       27.4,
+       36.3
+      ],
+      [
+       39.7,
+       43.8
+      ],
+      [
+       54.9,
+       58.6
+      ]
+     ],
+     "x": 2250,
+     "y": 1980,
+     "h": 1100,
+     "flip": true
     }
    ]
   },
   {
    "t0": 27.4,
    "t1": 30.0,
-   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "bg": "/home/user/story/assets/backgrounds/jpg/Rajsava.jpg",
+   "blur": 3,
    "cam": [
     [
-     775,
-     610,
-     760
+     1660,
+     820,
+     1050
     ],
     [
-     785,
-     620,
-     720
+     1680,
+     830,
+     1000
     ]
    ],
    "actors": [
-    {
-     "talk": "pr_talk",
-     "idle": "pr_idle",
-     "speaking": [
-      [
-       27.4,
-       36.3
-      ],
-      [
-       39.7,
-       43.8
-      ],
-      [
-       54.9,
-       58.6
-      ]
-     ],
-     "x": 1020,
-     "y": 1440,
-     "h": 780
-    },
     {
      "talk": "raja_talk",
      "idle": "raja_idle",
@@ -394,9 +404,32 @@
        54.6
       ]
      ],
-     "x": 1560,
-     "y": 1440,
-     "h": 820
+     "x": 1600,
+     "y": 1980,
+     "h": 1150,
+     "flip": true
+    },
+    {
+     "talk": "pr_talk",
+     "idle": "pr_idle",
+     "speaking": [
+      [
+       27.4,
+       36.3
+      ],
+      [
+       39.7,
+       43.8
+      ],
+      [
+       54.9,
+       58.6
+      ]
+     ],
+     "x": 2250,
+     "y": 1980,
+     "h": 1100,
+     "flip": true
     }
    ]
   },
@@ -463,41 +496,21 @@
   {
    "t0": 36.4,
    "t1": 39.7,
-   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "bg": "/home/user/story/assets/backgrounds/jpg/Rajsava.jpg",
+   "blur": 3,
    "cam": [
     [
-     1030,
-     600,
-     760
+     1180,
+     800,
+     1050
     ],
     [
-     1040,
-     605,
-     740
+     1190,
+     805,
+     1020
     ]
    ],
    "actors": [
-    {
-     "talk": "pr_talk",
-     "idle": "pr_idle",
-     "speaking": [
-      [
-       27.4,
-       36.3
-      ],
-      [
-       39.7,
-       43.8
-      ],
-      [
-       54.9,
-       58.6
-      ]
-     ],
-     "x": 1020,
-     "y": 1440,
-     "h": 780
-    },
     {
      "talk": "raja_talk",
      "idle": "raja_idle",
@@ -515,29 +528,75 @@
        54.6
       ]
      ],
-     "x": 1560,
-     "y": 1440,
-     "h": 820
+     "x": 1600,
+     "y": 1980,
+     "h": 1150,
+     "flip": true
+    },
+    {
+     "talk": "pr_talk",
+     "idle": "pr_idle",
+     "speaking": [
+      [
+       27.4,
+       36.3
+      ],
+      [
+       39.7,
+       43.8
+      ],
+      [
+       54.9,
+       58.6
+      ]
+     ],
+     "x": 2250,
+     "y": 1980,
+     "h": 1100,
+     "flip": true
     }
    ]
   },
   {
    "t0": 39.7,
    "t1": 43.8,
-   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "bg": "/home/user/story/assets/backgrounds/jpg/Rajsava.jpg",
+   "blur": 3,
    "cam": [
     [
-     775,
-     610,
-     760
+     1660,
+     820,
+     1050
     ],
     [
-     785,
-     620,
-     720
+     1680,
+     830,
+     1000
     ]
    ],
    "actors": [
+    {
+     "talk": "raja_talk",
+     "idle": "raja_idle",
+     "speaking": [
+      [
+       21.8,
+       27.4
+      ],
+      [
+       36.5,
+       39.7
+      ],
+      [
+       43.8,
+       54.6
+      ]
+     ],
+     "x": 1600,
+     "y": 1980,
+     "h": 1150,
+     "flip": true
+    },
     {
      "talk": "pr_talk2",
      "idle": "pr_idle",
@@ -555,71 +614,31 @@
        58.6
       ]
      ],
-     "x": 1020,
-     "y": 1440,
-     "h": 780
-    },
-    {
-     "talk": "raja_talk",
-     "idle": "raja_idle",
-     "speaking": [
-      [
-       21.8,
-       27.4
-      ],
-      [
-       36.5,
-       39.7
-      ],
-      [
-       43.8,
-       54.6
-      ]
-     ],
-     "x": 1560,
-     "y": 1440,
-     "h": 820
+     "x": 2250,
+     "y": 1980,
+     "h": 1100,
+     "flip": true
     }
    ]
   },
   {
    "t0": 43.8,
    "t1": 49.2,
-   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "bg": "/home/user/story/assets/backgrounds/jpg/Rajsava.jpg",
+   "blur": 3,
    "cam": [
     [
-     1030,
-     600,
-     760
+     1080,
+     820,
+     1680
     ],
     [
-     1060,
-     615,
-     700
+     1120,
+     840,
+     1600
     ]
    ],
    "actors": [
-    {
-     "talk": "pr_talk",
-     "idle": "pr_idle",
-     "speaking": [
-      [
-       27.4,
-       36.3
-      ],
-      [
-       39.7,
-       43.8
-      ],
-      [
-       54.9,
-       58.6
-      ]
-     ],
-     "x": 1020,
-     "y": 1440,
-     "h": 780
-    },
     {
      "talk": "raja_talk",
      "idle": "raja_idle",
@@ -637,50 +656,53 @@
        54.6
       ]
      ],
-     "x": 1560,
-     "y": 1440,
-     "h": 820
+     "x": 1600,
+     "y": 1980,
+     "h": 1150,
+     "flip": true
+    },
+    {
+     "talk": "pr_talk",
+     "idle": "pr_idle",
+     "speaking": [
+      [
+       27.4,
+       36.3
+      ],
+      [
+       39.7,
+       43.8
+      ],
+      [
+       54.9,
+       58.6
+      ]
+     ],
+     "x": 2250,
+     "y": 1980,
+     "h": 1100,
+     "flip": true
     }
    ]
   },
   {
    "t0": 49.2,
    "t1": 54.7,
-   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "bg": "/home/user/story/assets/backgrounds/jpg/Rajsava.jpg",
+   "blur": 3,
    "cam": [
     [
-     560,
-     480,
-     1640
+     1180,
+     800,
+     1050
     ],
     [
-     700,
-     560,
-     1420
+     1210,
+     815,
+     980
     ]
    ],
    "actors": [
-    {
-     "talk": "pr_talk",
-     "idle": "pr_idle",
-     "speaking": [
-      [
-       27.4,
-       36.3
-      ],
-      [
-       39.7,
-       43.8
-      ],
-      [
-       54.9,
-       58.6
-      ]
-     ],
-     "x": 1020,
-     "y": 1440,
-     "h": 780
-    },
     {
      "talk": "raja_talk",
      "idle": "raja_idle",
@@ -698,50 +720,53 @@
        54.6
       ]
      ],
-     "x": 1560,
-     "y": 1440,
-     "h": 820
+     "x": 1600,
+     "y": 1980,
+     "h": 1150,
+     "flip": true
+    },
+    {
+     "talk": "pr_talk",
+     "idle": "pr_idle",
+     "speaking": [
+      [
+       27.4,
+       36.3
+      ],
+      [
+       39.7,
+       43.8
+      ],
+      [
+       54.9,
+       58.6
+      ]
+     ],
+     "x": 2250,
+     "y": 1980,
+     "h": 1100,
+     "flip": true
     }
    ]
   },
   {
    "t0": 54.7,
    "t1": 58.7,
-   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "bg": "/home/user/story/assets/backgrounds/jpg/Rajsava.jpg",
+   "blur": 3,
    "cam": [
     [
-     775,
-     610,
-     760
+     1660,
+     820,
+     1050
     ],
     [
-     795,
-     625,
-     700
+     1690,
+     835,
+     980
     ]
    ],
    "actors": [
-    {
-     "talk": "pr_talk",
-     "idle": "pr_idle",
-     "speaking": [
-      [
-       27.4,
-       36.3
-      ],
-      [
-       39.7,
-       43.8
-      ],
-      [
-       54.9,
-       58.6
-      ]
-     ],
-     "x": 1020,
-     "y": 1440,
-     "h": 780
-    },
     {
      "talk": "raja_talk",
      "idle": "raja_idle",
@@ -759,90 +784,70 @@
        54.6
       ]
      ],
-     "x": 1560,
-     "y": 1440,
-     "h": 820
+     "x": 1600,
+     "y": 1980,
+     "h": 1150,
+     "flip": true
+    },
+    {
+     "talk": "pr_talk",
+     "idle": "pr_idle",
+     "speaking": [
+      [
+       27.4,
+       36.3
+      ],
+      [
+       39.7,
+       43.8
+      ],
+      [
+       54.9,
+       58.6
+      ]
+     ],
+     "x": 2250,
+     "y": 1980,
+     "h": 1100,
+     "flip": true
     }
    ]
   },
   {
    "t0": 58.7,
    "t1": 60.0,
-   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "bg": "/home/user/story/assets/backgrounds/jpg/Rajsava.jpg",
+   "blur": 2,
    "cam": [
     [
-     150,
-     180,
-     2100
+     760,
+     560,
+     2500
     ],
     [
-     150,
-     180,
-     2100
+     760,
+     560,
+     2500
     ]
    ],
    "fade_out": 1.0,
    "actors": [
     {
-     "talk": "m3",
-     "idle": "m3",
-     "x": 1010,
-     "y": 1110,
-     "h": 470
-    },
-    {
-     "talk": "m2",
-     "idle": "m2",
-     "x": 1550,
-     "y": 1110,
-     "h": 470,
+     "talk": "raja_talk",
+     "idle": "raja_idle",
+     "speaking": [],
+     "x": 1600,
+     "y": 1980,
+     "h": 1150,
      "flip": true
-    },
-    {
-     "talk": "d0",
-     "idle": "d0",
-     "x": 470,
-     "y": 1260,
-     "h": 330
-    },
-    {
-     "talk": "d4",
-     "idle": "d4",
-     "x": 260,
-     "y": 1350,
-     "h": 380
-    },
-    {
-     "talk": "d1",
-     "idle": "d1",
-     "x": 2090,
-     "y": 1260,
-     "h": 330
-    },
-    {
-     "talk": "d5",
-     "idle": "d5",
-     "x": 2300,
-     "y": 1350,
-     "h": 380
-    },
-    {
-     "talk": "raja_throne_idle",
-     "idle": "raja_throne_idle",
-     "x": 1280,
-     "y": 1075,
-     "h": 430
     },
     {
      "talk": "pr_walk",
      "idle": "pr_walk",
-     "flip": true,
-     "x": 900,
-     "y": 1400,
-     "h": 740,
-     "x1": 600,
-     "y1": 1410,
-     "h1": 750,
+     "x": 2300,
+     "y": 1980,
+     "h": 1100,
+     "x1": 2900,
      "move_dur": 1.3
     }
    ]
