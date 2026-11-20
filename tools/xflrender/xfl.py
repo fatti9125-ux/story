@@ -269,6 +269,9 @@ class XFL:
                 self.bitmaps[b.get('name')] = (os.path.join(root, 'bin', b.get('bitmapDataHRef')),
                                                float(b.get('frameRight', 0)) / 20, float(b.get('frameBottom', 0)) / 20)
         self._bmp_url = {}
+        self.mute = False      # lock mouth ('lip') symbols to frame 0
+        self.gclock = None     # 'still' mode: nested looping symbols follow this clock
+        self._depth = 0
         self._tl = {}
         self.defs = {}; self.def_order = []; self._shape_cache = {}; self._grad = 0; self._filters = {}
 
@@ -404,7 +407,11 @@ class XFL:
             name = el.get('libraryItemName')
             if name not in self.items: return ''
             tl = self.timeline(name)
+            if self.gclock is not None and self._depth >= 1 and el.get('loop', 'loop') == 'loop':
+                off = self.gclock
             cf = self.child_frame(el, off, tl.length)
+            if self.mute and re.search('lip', name.split('/')[-1], re.I):
+                cf = 0
             sid = self.symbol_def(name, cf)
             if sid is None: return ''
             node = '<use xlink:href="#%s" transform="%s"/>' % (sid, fmtm(m))
@@ -432,10 +439,14 @@ class XFL:
         return '<g filter="url(#%s)">%s</g>' % (self._filters[k], node)
 
     def symbol_def(self, name, frame):
-        sid = 's%x_%d' % (abs(hash(name)) & 0xffffffff, frame)
+        sid = 's%x_%d_%s' % (abs(hash(name)) & 0xffffffff, frame, '' if self.gclock is None else self.gclock)
         if sid in self.defs: return sid
         self.defs[sid] = None  # recursion guard
-        body = self.render_timeline(self.timeline(name), frame)
+        self._depth += 1
+        try:
+            body = self.render_timeline(self.timeline(name), frame)
+        finally:
+            self._depth -= 1
         self.defs[sid] = '<g id="%s">%s</g>' % (sid, body)
         self.def_order.append(sid)
         return sid

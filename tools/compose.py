@@ -91,11 +91,12 @@ def main():
         frame = bg.resize((W, H), Image.BICUBIC, box=(cx, cy, cx + cw, cy + ch)).convert('RGBA')
         actors = sorted(sh.get('actors', []), key=lambda ac: ac.get('z', ac['y']))
         for ac in actors:
-            speaking = any(s0 <= t < s1 for s0, s1 in ac.get('speaking', []))
+            sp = next((iv for iv in ac.get('speaking', []) if iv[0] <= t < iv[1]), None)
+            speaking = sp is not None
             local = int(round((t - sh['t0']) * fps)) + ac.get('offset', 0)
             if speaking or not ac.get('idle'):
                 clip = clips[ac['talk']]
-                img = clip.frame(local if speaking else ac.get('hold_idle_frame', 0))
+                img = clip.frame(int(round((t - sp[0]) * fps)) if speaking else ac.get('hold_idle_frame', 0))
             else:
                 clip = clips[ac['idle']]; img = clip.frame(local)
             mu = ease((t - sh['t0'] - ac.get('move_t0', 0)) / max(1e-6, ac.get('move_dur', sh['t1'] - sh['t0']))) if 'x1' in ac else 0

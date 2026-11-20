@@ -75,7 +75,11 @@ Rules:
 3. **Characters face each other.** Before staging, check each pose's facing (face crop: ear/back of head on one side = facing the other side). Put a character on the side where his natural facing points at his partner; mirror (`flip`) only when needed. In a single shot the character sits on his own third, looking across empty space toward his partner (partner's shoulder may peek in at the edge).
 4. **Walks move the way the walk faces.** A right-facing walk only moves right; to move left use `flip`. Never translate a walk cycle against its facing.
 5. Dialogue grammar: two-shot (knee-up, both big in frame, ~55–65% frame height) → speaker single (MCU) → listener single/reaction → two-shot. Inserts (hands + prop) for key objects.
-6. Populate locations: court wides have the throne king, ministers beside him, guards, seated courtiers facing the centre on both sides.
+6. **Only the speaker talks.** Everyone else uses an idle pose: a true idle pose (`classify.py` kind IDLE), or the same pose rendered `--mute` (mouth locked) or as a held frame. Never use a TALK pose for a non-speaker, and never lip-sync in narration or flashback shots.
+7. **Illustrate what a line describes with a cutaway to a different location** (e.g. "मेरे काम बिगड़ जाते हैं" → flashback of the failure in a dry field) while the voice continues.
+8. **Nothing may be cropped.** Render clips with `render_pose.py` (wide canvas, trimmed to the union of all frames); it warns if anything touches the canvas edge.
+9. QA before sending: contact sheets at 4 fps of the whole render, checked by eye.
+10. Populate locations: court wides have the throne king, ministers beside him, guards, seated courtiers facing the centre on both sides.
 
 ## 5. Animation timing rules (30 fps, measured)
 
