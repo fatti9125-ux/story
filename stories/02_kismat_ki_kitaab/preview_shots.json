@@ -1,0 +1,533 @@
+{
+ "audio": "voiceover.mp3",
+ "clips": {
+  "raja_talk": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips_r/Raja_p4",
+  "pr_talk": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips_r/Rajkumar-Animated_p2",
+  "pr_talk2": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips_r/Rajkumar-Animated_p1",
+  "pr_idle": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips_r/Rajkumar-Animated_p0",
+  "pr_walk": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clips_r/Rajkumar-Animated_p3"
+ },
+ "shots": [
+  {
+   "t0": 0,
+   "t1": 7.2,
+   "bg": "/home/user/story/assets/backgrounds/jpg/birds eye view mahal 2.jpeg",
+   "cam": [
+    [
+     0,
+     0,
+     2560
+    ],
+    [
+     760,
+     200,
+     1500
+    ]
+   ],
+   "fade_in": 0.8,
+   "overlays": [
+    {
+     "png": "preview/title.png",
+     "t0": 0.8,
+     "t1": 6.6,
+     "x": 0.5,
+     "y": 0.2,
+     "w": 0.55
+    }
+   ]
+  },
+  {
+   "t0": 7.2,
+   "t1": 13.6,
+   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "cam": [
+    [
+     0,
+     0,
+     2560
+    ],
+    [
+     420,
+     170,
+     1720
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_talk",
+     "speaking": [
+      [
+       21.8,
+       27.4
+      ],
+      [
+       36.5,
+       39.7
+      ],
+      [
+       43.8,
+       54.6
+      ]
+     ],
+     "hold_idle_frame": 0,
+     "x": 1280,
+     "y": 1075,
+     "h": 430,
+     "z": 1
+    }
+   ]
+  },
+  {
+   "t0": 13.6,
+   "t1": 21.8,
+   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "cam": [
+    [
+     260,
+     240,
+     2000
+    ],
+    [
+     380,
+     300,
+     1800
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_talk",
+     "speaking": [
+      [
+       21.8,
+       27.4
+      ],
+      [
+       36.5,
+       39.7
+      ],
+      [
+       43.8,
+       54.6
+      ]
+     ],
+     "hold_idle_frame": 0,
+     "x": 1280,
+     "y": 1075,
+     "h": 430,
+     "z": 1
+    },
+    {
+     "talk": "pr_walk",
+     "idle": "pr_walk",
+     "speaking": [
+      [
+       27.4,
+       36.3
+      ],
+      [
+       39.7,
+       43.8
+      ],
+      [
+       54.9,
+       58.6
+      ]
+     ],
+     "x": 2450,
+     "y": 1440,
+     "h": 700,
+     "z": 2,
+     "x1": 1620,
+     "y1": 1330,
+     "h1": 640,
+     "move_dur": 7.0
+    }
+   ]
+  },
+  {
+   "t0": 21.8,
+   "t1": 27.4,
+   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "cam": [
+    [
+     1010,
+     600,
+     560
+    ],
+    [
+     1040,
+     610,
+     500
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_talk",
+     "speaking": [
+      [
+       21.8,
+       27.4
+      ],
+      [
+       36.5,
+       39.7
+      ],
+      [
+       43.8,
+       54.6
+      ]
+     ],
+     "hold_idle_frame": 0,
+     "x": 1280,
+     "y": 1075,
+     "h": 430,
+     "z": 1
+    }
+   ]
+  },
+  {
+   "t0": 27.4,
+   "t1": 36.4,
+   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "cam": [
+    [
+     1300,
+     640,
+     680
+    ],
+    [
+     1330,
+     660,
+     620
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_talk",
+     "speaking": [
+      [
+       21.8,
+       27.4
+      ],
+      [
+       36.5,
+       39.7
+      ],
+      [
+       43.8,
+       54.6
+      ]
+     ],
+     "hold_idle_frame": 0,
+     "x": 1280,
+     "y": 1075,
+     "h": 430,
+     "z": 1
+    },
+    {
+     "talk": "pr_talk",
+     "idle": "pr_idle",
+     "speaking": [
+      [
+       27.4,
+       36.3
+      ],
+      [
+       39.7,
+       43.8
+      ],
+      [
+       54.9,
+       58.6
+      ]
+     ],
+     "x": 1620,
+     "y": 1330,
+     "h": 640,
+     "z": 2
+    }
+   ]
+  },
+  {
+   "t0": 36.4,
+   "t1": 39.7,
+   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "cam": [
+    [
+     1040,
+     610,
+     500
+    ],
+    [
+     1020,
+     600,
+     540
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_talk",
+     "speaking": [
+      [
+       21.8,
+       27.4
+      ],
+      [
+       36.5,
+       39.7
+      ],
+      [
+       43.8,
+       54.6
+      ]
+     ],
+     "hold_idle_frame": 0,
+     "x": 1280,
+     "y": 1075,
+     "h": 430,
+     "z": 1
+    }
+   ]
+  },
+  {
+   "t0": 39.7,
+   "t1": 43.8,
+   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "cam": [
+    [
+     760,
+     470,
+     1400
+    ],
+    [
+     820,
+     500,
+     1300
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_talk",
+     "speaking": [
+      [
+       21.8,
+       27.4
+      ],
+      [
+       36.5,
+       39.7
+      ],
+      [
+       43.8,
+       54.6
+      ]
+     ],
+     "hold_idle_frame": 0,
+     "x": 1280,
+     "y": 1075,
+     "h": 430,
+     "z": 1
+    },
+    {
+     "talk": "pr_talk2",
+     "idle": "pr_idle",
+     "speaking": [
+      [
+       27.4,
+       36.3
+      ],
+      [
+       39.7,
+       43.8
+      ],
+      [
+       54.9,
+       58.6
+      ]
+     ],
+     "x": 1620,
+     "y": 1330,
+     "h": 640,
+     "z": 2
+    }
+   ]
+  },
+  {
+   "t0": 43.8,
+   "t1": 54.7,
+   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "cam": [
+    [
+     760,
+     470,
+     1400
+    ],
+    [
+     960,
+     580,
+     760
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_talk",
+     "speaking": [
+      [
+       21.8,
+       27.4
+      ],
+      [
+       36.5,
+       39.7
+      ],
+      [
+       43.8,
+       54.6
+      ]
+     ],
+     "hold_idle_frame": 0,
+     "x": 1280,
+     "y": 1075,
+     "h": 430,
+     "z": 1
+    },
+    {
+     "talk": "pr_talk",
+     "idle": "pr_idle",
+     "speaking": [
+      [
+       27.4,
+       36.3
+      ],
+      [
+       39.7,
+       43.8
+      ],
+      [
+       54.9,
+       58.6
+      ]
+     ],
+     "x": 1620,
+     "y": 1330,
+     "h": 640,
+     "z": 2
+    }
+   ]
+  },
+  {
+   "t0": 54.7,
+   "t1": 58.7,
+   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "cam": [
+    [
+     1300,
+     640,
+     680
+    ],
+    [
+     1320,
+     650,
+     640
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_talk",
+     "speaking": [
+      [
+       21.8,
+       27.4
+      ],
+      [
+       36.5,
+       39.7
+      ],
+      [
+       43.8,
+       54.6
+      ]
+     ],
+     "hold_idle_frame": 0,
+     "x": 1280,
+     "y": 1075,
+     "h": 430,
+     "z": 1
+    },
+    {
+     "talk": "pr_talk",
+     "idle": "pr_idle",
+     "speaking": [
+      [
+       27.4,
+       36.3
+      ],
+      [
+       39.7,
+       43.8
+      ],
+      [
+       54.9,
+       58.6
+      ]
+     ],
+     "x": 1620,
+     "y": 1330,
+     "h": 640,
+     "z": 2
+    }
+   ]
+  },
+  {
+   "t0": 58.7,
+   "t1": 60.0,
+   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "cam": [
+    [
+     400,
+     200,
+     1800
+    ],
+    [
+     300,
+     150,
+     2000
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_talk",
+     "speaking": [
+      [
+       21.8,
+       27.4
+      ],
+      [
+       36.5,
+       39.7
+      ],
+      [
+       43.8,
+       54.6
+      ]
+     ],
+     "hold_idle_frame": 0,
+     "x": 1280,
+     "y": 1075,
+     "h": 430,
+     "z": 1
+    },
+    {
+     "talk": "pr_talk",
+     "idle": "pr_idle",
+     "speaking": [],
+     "x": 1620,
+     "y": 1330,
+     "h": 640,
+     "z": 2
+    }
+   ],
+   "fade_out": 1.0
+  }
+ ]
+}
