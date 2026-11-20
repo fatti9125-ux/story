@@ -68,6 +68,15 @@ Rules:
 - Groups: shallow line, inward-facing, slight overlap, main speaker at center or nearest camera (clip 23).
 - Court/crowd: symmetrical arrays either side of a central aisle, repeated extras, king centered on the throne (clip 16, 23).
 
+## 4b. Hard rules from the user's own reference (KittuBittu-style 14.5 min story, 122 shots)
+
+1. **Cut every ~6 s** (median shot 6.0 s, mean 7.1 s, p90 12.6 s). Never hold one framing >12 s; split long lines into single → two-shot → single.
+2. **Show what the narration says.** Every narrator sentence gets its own picture (kingdom wide, king solving a farmer's problem, the friend advising, the summons). Narration is never laid over an unrelated dialogue shot.
+3. **Characters face each other.** Before staging, check each pose's facing (face crop: ear/back of head on one side = facing the other side). Put a character on the side where his natural facing points at his partner; mirror (`flip`) only when needed. In a single shot the character sits on his own third, looking across empty space toward his partner (partner's shoulder may peek in at the edge).
+4. **Walks move the way the walk faces.** A right-facing walk only moves right; to move left use `flip`. Never translate a walk cycle against its facing.
+5. Dialogue grammar: two-shot (knee-up, both big in frame, ~55–65% frame height) → speaker single (MCU) → listener single/reaction → two-shot. Inserts (hands + prop) for key objects.
+6. Populate locations: court wides have the throne king, ministers beside him, guards, seated courtiers facing the centre on both sides.
+
 ## 5. Animation timing rules (30 fps, measured)
 
 | Action | Timing | How |

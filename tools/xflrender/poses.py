@@ -17,10 +17,10 @@ def pose_list(doc):
     tl = next(iter(doc.scenes.values()))
     out = []
     for li, (L, frames) in enumerate(tl.layers):
-        if L.get('layerType') in ('guide', 'folder', 'mask'): continue
+        if L.get('layerType') in ('guide', 'folder', 'mask', 'camera') or L.get('name') == 'Camera': continue
         for F in frames[:1]:
             for ei, el in enumerate(kids(F, 'elements')):
-                if strip(el.tag) == 'DOMSymbolInstance':
+                if strip(el.tag) == 'DOMSymbolInstance' and el.get('libraryItemName') in doc.items:
                     name = el.get('libraryItemName')
                     out.append(dict(layer=li, element=ei, layer_name=L.get('name'), symbol=name,
                                     length=doc.timeline(name).length, matrix=mat_of(el),
