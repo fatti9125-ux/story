@@ -5,3 +5,5 @@ assets/
 renders/
 stories/*/preview/*.mp4
 stories/*/*.mp3
+stories/**/*.mp4
+stories/**/*.wav

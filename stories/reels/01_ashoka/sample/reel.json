@@ -1,0 +1,602 @@
+{
+ "size": [
+  1080,
+  1920
+ ],
+ "fps": 30,
+ "vo": "vo.wav",
+ "vo_timing": "vo_timing.json",
+ "clips": {
+  "attack": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clipsR/attack",
+  "m2": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clipsR/m2",
+  "m3": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clipsR/m3",
+  "raja_back": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clipsR/raja_back",
+  "raja_close": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clipsR/raja_close",
+  "raja_throne": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clipsR/raja_throne",
+  "raja_walk": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clipsR/raja_walk",
+  "rath": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clipsR/rath",
+  "shield": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clipsR/shield",
+  "spear": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clipsR/spear",
+  "spear2": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clipsR/spear2",
+  "swalk": "/tmp/claude-0/-home-user-story/bf219eef-b658-59ba-bcf6-796520f7b216/scratchpad/clipsR/swalk"
+ },
+ "shots": [
+  {
+   "t0": 0,
+   "t1": 3.47,
+   "bg": "/home/user/story/assets/backgrounds/png8k/suka jamin.png",
+   "cam": [
+    [
+     1300,
+     40,
+     1215
+    ],
+    [
+     1440,
+     260,
+     960
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "spear2",
+     "idle": "spear2",
+     "x": 1250,
+     "y": 1520,
+     "h": 520,
+     "offset": 10
+    },
+    {
+     "talk": "spear",
+     "idle": "spear",
+     "x": 2600,
+     "y": 1540,
+     "h": 520,
+     "flip": true
+    },
+    {
+     "talk": "raja_close",
+     "idle": "raja_close",
+     "x": 1900,
+     "y": 2150,
+     "h": 1450
+    }
+   ],
+   "fx": {
+    "night": 0.8,
+    "fire": 0.9,
+    "embers": 90,
+    "smoke": 0.3,
+    "blur_in": 0.7,
+    "burn": 0.5
+   }
+  },
+  {
+   "t0": 3.47,
+   "t1": 5.75,
+   "bg": "black",
+   "card": "Then never fought again",
+   "cam": [
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t0": 5.75,
+   "t1": 8.4,
+   "bg": "/home/user/story/assets/backgrounds/jpg/birds eye view mahal 2.jpeg",
+   "cam": [
+    [
+     875,
+     0,
+     810
+    ],
+    [
+     960,
+     160,
+     640
+    ]
+   ],
+   "fx": {
+    "night": 0.55,
+    "embers": 0
+   }
+  },
+  {
+   "t0": 8.4,
+   "t1": 11.5,
+   "bg": "/home/user/story/assets/backgrounds/jpg/raj mohol sava.jpeg",
+   "cam": [
+    [
+     960,
+     250,
+     640
+    ],
+    [
+     1040,
+     420,
+     480
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "m3",
+     "idle": "m3",
+     "x": 1050,
+     "y": 1110,
+     "h": 470
+    },
+    {
+     "talk": "m2",
+     "idle": "m2",
+     "x": 1520,
+     "y": 1110,
+     "h": 470,
+     "flip": true
+    },
+    {
+     "talk": "raja_throne",
+     "idle": "raja_throne",
+     "x": 1280,
+     "y": 1075,
+     "h": 430
+    }
+   ],
+   "fx": {
+    "night": 0.5,
+    "embers": 0
+   }
+  },
+  {
+   "t0": 11.5,
+   "t1": 14.2,
+   "bg": "/home/user/story/assets/backgrounds/png8k/jungal.png",
+   "cam": [
+    [
+     1300,
+     200,
+     1215
+    ],
+    [
+     1400,
+     330,
+     1050
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "shield",
+     "idle": "shield",
+     "x": 1700,
+     "y": 1900,
+     "h": 900
+    },
+    {
+     "talk": "shield",
+     "idle": "shield",
+     "x": 2250,
+     "y": 1950,
+     "h": 950,
+     "offset": 40,
+     "flip": true
+    },
+    {
+     "talk": "shield",
+     "idle": "shield",
+     "x": 1950,
+     "y": 2100,
+     "h": 1150,
+     "offset": 80
+    }
+   ],
+   "fx": {
+    "night": 0.75,
+    "fire": 0.4,
+    "embers": 30,
+    "smoke": 0.2
+   }
+  },
+  {
+   "t0": 14.2,
+   "t1": 15.5,
+   "bg": "/home/user/story/assets/backgrounds/png8k/jungal.png",
+   "cam": [
+    [
+     1350,
+     300,
+     1000
+    ],
+    [
+     1420,
+     380,
+     900
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "shield",
+     "idle": "shield",
+     "x": 1900,
+     "y": 2400,
+     "h": 1700,
+     "offset": 20
+    }
+   ],
+   "fx": {
+    "night": 0.75,
+    "fire": 0.5,
+    "embers": 40
+   }
+  },
+  {
+   "t0": 15.5,
+   "t1": 17.75,
+   "bg": "/home/user/story/assets/backgrounds/png8k/suka jamin.png",
+   "cam": [
+    [
+     1250,
+     230,
+     1215
+    ],
+    [
+     1250,
+     300,
+     1150
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "rath",
+     "idle": "rath",
+     "x": 2900,
+     "y": 1900,
+     "h": 760,
+     "x1": 1850,
+     "move_dur": 2.25
+    },
+    {
+     "talk": "swalk",
+     "idle": "swalk",
+     "x": 2500,
+     "y": 2080,
+     "h": 950,
+     "flip": true,
+     "x1": 1900,
+     "move_dur": 2.25
+    },
+    {
+     "talk": "swalk",
+     "idle": "swalk",
+     "x": 2850,
+     "y": 2140,
+     "h": 1020,
+     "flip": true,
+     "offset": 7,
+     "x1": 2250,
+     "move_dur": 2.25
+    }
+   ],
+   "fx": {
+    "night": 0.75,
+    "fire": 0.5,
+    "smoke": 0.25,
+    "embers": 20
+   }
+  },
+  {
+   "t0": 17.75,
+   "t1": 19.2,
+   "bg": "/home/user/story/assets/backgrounds/png8k/suka jamin.png",
+   "cam": [
+    [
+     1350,
+     250,
+     1215
+    ],
+    [
+     1380,
+     300,
+     1150
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "attack",
+     "idle": "attack",
+     "x": 1700,
+     "y": 1960,
+     "h": 950
+    },
+    {
+     "talk": "spear2",
+     "idle": "spear2",
+     "x": 2350,
+     "y": 1970,
+     "h": 1000,
+     "flip": true
+    }
+   ],
+   "fx": {
+    "night": 0.8,
+    "fire": 0.7,
+    "embers": 80,
+    "smoke": 0.3,
+    "shake": 6,
+    "burn": 0.4
+   }
+  },
+  {
+   "t0": 19.2,
+   "t1": 21.5,
+   "bg": "/home/user/story/assets/backgrounds/png8k/suka jamin.png",
+   "cam": [
+    [
+     1150,
+     150,
+     1215
+    ],
+    [
+     1250,
+     230,
+     1100
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "attack",
+     "idle": "attack",
+     "x": 1450,
+     "y": 1700,
+     "h": 620,
+     "offset": 5
+    },
+    {
+     "talk": "shield",
+     "idle": "shield",
+     "x": 2350,
+     "y": 1700,
+     "h": 620,
+     "flip": true,
+     "offset": 30
+    },
+    {
+     "talk": "attack",
+     "idle": "attack",
+     "x": 1900,
+     "y": 1850,
+     "h": 780,
+     "offset": 12,
+     "flip": true
+    },
+    {
+     "talk": "spear2",
+     "idle": "spear2",
+     "x": 1400,
+     "y": 2050,
+     "h": 950
+    },
+    {
+     "talk": "attack",
+     "idle": "attack",
+     "x": 2250,
+     "y": 2100,
+     "h": 1000,
+     "offset": 3
+    }
+   ],
+   "fx": {
+    "night": 0.9,
+    "fire": 1.0,
+    "embers": 140,
+    "smoke": 0.5,
+    "dim_actors": 0.55,
+    "shake": 4,
+    "burn": 0.9
+   }
+  },
+  {
+   "t0": 21.5,
+   "t1": 23.45,
+   "bg": "/home/user/story/assets/backgrounds/jpg/12.Village.jpg",
+   "cam": [
+    [
+     1400,
+     300,
+     1215
+    ],
+    [
+     1500,
+     450,
+     1000
+    ]
+   ],
+   "fx": {
+    "night": 0.9,
+    "fire": 1.0,
+    "smoke": 0.6,
+    "embers": 160,
+    "burn": 1.0
+   }
+  },
+  {
+   "t0": 23.45,
+   "t1": 25.65,
+   "bg": "black",
+   "card": "Ashoka has won",
+   "cam": [
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t0": 25.65,
+   "t1": 27.7,
+   "bg": "/home/user/story/assets/backgrounds/png8k/suka jamin.png",
+   "cam": [
+    [
+     1300,
+     150,
+     1215
+    ],
+    [
+     1330,
+     200,
+     1150
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_back",
+     "idle": "raja_back",
+     "x": 1900,
+     "y": 2150,
+     "h": 1300,
+     "y1": 1700,
+     "h1": 800
+    }
+   ],
+   "fx": {
+    "night": 0.8,
+    "fire": 0.6,
+    "smoke": 0.5,
+    "embers": 60,
+    "desat": 0.3
+   }
+  },
+  {
+   "t0": 27.7,
+   "t1": 29.9,
+   "bg": "/home/user/story/assets/backgrounds/png8k/suka jamin.png",
+   "cam": [
+    [
+     900,
+     0,
+     1215
+    ],
+    [
+     1700,
+     0,
+     1215
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_back",
+     "idle": "raja_back",
+     "x": 2050,
+     "y": 1480,
+     "h": 330,
+     "dim_actors": 0
+    }
+   ],
+   "fx": {
+    "night": 0.8,
+    "fire": 0.5,
+    "smoke": 0.6,
+    "embers": 50,
+    "desat": 0.5
+   }
+  },
+  {
+   "t0": 29.9,
+   "t1": 32.7,
+   "bg": "/home/user/story/assets/backgrounds/png8k/suka jamin.png",
+   "cam": [
+    [
+     1400,
+     300,
+     1000
+    ],
+    [
+     1450,
+     350,
+     900
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_close",
+     "idle": "raja_close",
+     "x": 1900,
+     "y": 2150,
+     "h": 1500
+    }
+   ],
+   "fx": {
+    "night": 0.75,
+    "fire": 0.8,
+    "embers": 50,
+    "smoke": 0.2,
+    "burn": 0.4
+   }
+  },
+  {
+   "t0": 32.7,
+   "t1": 34.95,
+   "bg": "/home/user/story/assets/backgrounds/png8k/suka jamin.png",
+   "cam": [
+    [
+     1620,
+     600,
+     580
+    ],
+    [
+     1660,
+     640,
+     500
+    ]
+   ],
+   "actors": [
+    {
+     "talk": "raja_close",
+     "idle": "raja_close",
+     "x": 1900,
+     "y": 2150,
+     "h": 1500,
+     "offset": 60
+    }
+   ],
+   "fx": {
+    "night": 0.8,
+    "fire": 0.6,
+    "embers": 30,
+    "desat": 0.35,
+    "shake": 2
+   }
+  },
+  {
+   "t0": 34.95,
+   "t1": 38.49,
+   "bg": "black",
+   "card": "And the emperor changes forever",
+   "cam": [
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+[
+ {
+  "i": 0,
+  "text": "This king won the bloodiest war in ancient India.",
+  "t0": 0.35,
+  "t1": 3.3
+ },
+ {
+  "i": 1,
+  "text": "Then never fought again.",
+  "t0": 3.62,
+  "t1": 5.391
+ },
+ {
+  "i": 2,
+  "text": "It's two sixty-one B C.",
+  "t0": 5.941,
+  "t1": 8.246,
+  "caption": "IT'S 261 BC"
+ },
+ {
+  "i": 3,
+  "text": "The Maurya Empire rules most of India.",
+  "t0": 8.566,
+  "t1": 11.349
+ },
+ {
+  "i": 4,
+  "text": "But one kingdom refuses to bow.",
+  "t0": 11.669,
+  "t1": 14.021
+ },
+ {
+  "i": 5,
+  "text": "Kalinga.",
+  "t0": 14.341,
+  "t1": 15.16
+ },
+ {
+  "i": 6,
+  "text": "So Ashoka marches.",
+  "t0": 15.71,
+  "t1": 17.576
+ },
+ {
+  "i": 7,
+  "text": "The armies meet.",
+  "t0": 17.896,
+  "t1": 19.041
+ },
+ {
+  "i": 8,
+  "text": "For days, the battle rages.",
+  "t0": 19.361,
+  "t1": 21.344
+ },
+ {
+  "i": 9,
+  "text": "Kalinga falls.",
+  "t0": 21.663,
+  "t1": 23.047
+ },
+ {
+  "i": 10,
+  "text": "Ashoka has won.",
+  "t0": 23.597,
+  "t1": 25.252
+ },
+ {
+  "i": 11,
+  "text": "He walks the battlefield.",
+  "t0": 25.802,
+  "t1": 27.54
+ },
+ {
+  "i": 12,
+  "text": "A hundred thousand dead.",
+  "t0": 27.86,
+  "t1": 29.713
+ },
+ {
+  "i": 13,
+  "text": "He expected to feel like a conqueror.",
+  "t0": 30.033,
+  "t1": 32.566
+ },
+ {
+  "i": 14,
+  "text": "Instead, he feels sick.",
+  "t0": 32.886,
+  "t1": 34.542
+ },
+ {
+  "i": 15,
+  "text": "And the emperor changes forever.",
+  "t0": 35.092,
+  "t1": 37.172
+ }
+]
