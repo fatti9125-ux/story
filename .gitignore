@@ -7,3 +7,4 @@ stories/*/preview/*.mp4
 stories/*/*.mp3
 stories/**/*.mp4
 stories/**/*.wav
+__pycache__/
